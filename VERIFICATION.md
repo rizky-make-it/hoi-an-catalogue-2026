@@ -1,6 +1,6 @@
 # Verification — HOI AN 2026
 
-Local verification completed on 20 October 2026. Publication verification will be recorded separately after GitHub Pages becomes available.
+Local verification, native-file inspection, and live desktop/mobile publication verification completed on 20 October 2026.
 
 - npm test: 13 tests passed, plus static asset validation. Six catalogue dimensions checked against inventory.json; 12 placed products and 28 articulation nodes verified in the binary GLB.
 - Native Blender 5.2 master reopened successfully: six unique SKUs, twelve product roots, twenty-eight drawers, forty-three true-gap woven panels, four packed image textures, five cameras, UHD settings, Cycles-ready, no walls or roof.
@@ -10,4 +10,8 @@ Local verification completed on 20 October 2026. Publication verification will b
 - All contact requests used the creator-provided 6281393177004 number, supplied avatar, exact English invitation, correct per-file draft, focus restoration and nested modal scroll locking. Tests only inspected links; no WhatsApp link was opened or message sent.
 - SIENNA repository remains clean at commit 617dcc8. Its files and deployment were not changed. The former 18:30 Windows job is disabled to avoid duplicate execution.
 
-Browser evidence is stored locally in .local/qa-final.json and .local/qa-mobile-navigation-local.json, with screenshots. These checks use desktop Chrome with emulated mobile viewports and touch input, not physical-device testing; no universal mobile FPS or perfect catalogue/CAD equivalence is claimed.
+The public HTTPS site at https://rizky-make-it.github.io/hoi-an-catalogue-2026/ passed the full browser suite, including all six GLBs, actual raycast selection, walking, drawers, galleries, creator dialogs and mobile menu. Native .blend, source ZIP, catalogue, documentation, and original 4K PNG requests returned HTTP 200. GitHub Actions deployment runs 39415848502 and 39415875519 both succeeded.
+
+The live publication also passed the dedicated real multi-touch suite at all listed viewport sizes, including simultaneous joystick/look, pinch, release/cancel, expanded landscape view, product inspection and WhatsApp dialog locking. No runtime exceptions, console errors, or HTTP errors were recorded. The application tested was commit 083eda7; subsequent documentation/evidence updates do not alter its behaviour.
+
+Machine-readable evidence is supplied under verification/. Local screenshots are retained in ignored .local/. These checks use desktop Chrome with emulated mobile viewports and touch input, not physical-device testing; no universal mobile FPS or perfect catalogue/CAD equivalence is claimed.

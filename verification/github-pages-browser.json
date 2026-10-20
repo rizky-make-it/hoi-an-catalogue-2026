@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "siteUrl": "https://rizky-make-it.github.io/hoi-an-catalogue-2026/?v=hoi-an-1",
+  "preliminary": false,
+  "layout": "exhibition",
+  "walls": 0,
+  "roof": false,
+  "initialView": "orbit",
+  "openCrossovers": true,
+  "desktop": [
+    1440,
+    1000
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "catalogueProducts": 6,
+  "placedProducts": 12,
+  "movingParts": 28,
+  "connectedPaths": [
+    "storageToKing",
+    "aisleToQueen",
+    "aisleToCraft",
+    "southCrossover"
+  ],
+  "allModels": [
+    {
+      "sku": "LV453.B01",
+      "meshes": 7,
+      "products": true
+    },
+    {
+      "sku": "LV453.B02",
+      "meshes": 8,
+      "products": true
+    },
+    {
+      "sku": "LV453.B41",
+      "meshes": 12,
+      "products": true
+    },
+    {
+      "sku": "LV453.B51",
+      "meshes": 22,
+      "products": true
+    },
+    {
+      "sku": "LV453.B61",
+      "meshes": 32,
+      "products": true
+    },
+    {
+      "sku": "LV453.B71",
+      "meshes": 3,
+      "products": true
+    }
+  ],
+  "keyboardWalk": true,
+  "raycastSelection": true,
+  "dragLook": true,
+  "wheelZoom": true,
+  "cabinetAnimations": true,
+  "mobileMenu": true,
+  "downloads": [
+    {
+      "url": "assets/models/LV453.B71.glb",
+      "status": 200,
+      "bytes": 2857644
+    },
+    {
+      "url": "assets/hoi-an-exhibition.glb",
+      "status": 200,
+      "bytes": 27882377
+    },
+    {
+      "url": "downloads/hoi-an-exhibition.blend",
+      "status": 200,
+      "bytes": 51072331
+    },
+    {
+      "url": "downloads/hoi-an-project.zip",
+      "status": 200,
+      "bytes": 74763902
+    },
+    {
+      "url": "downloads/NEW-HOI-AN-CATALOGUE-2026.pdf",
+      "status": 200,
+      "bytes": 13716505
+    },
+    {
+      "url": "downloads/README.txt",
+      "status": 200,
+      "bytes": 3079
+    },
+    {
+      "url": "downloads/queen-4k.png",
+      "status": 200,
+      "bytes": 10135433
+    }
+  ],
+  "renderProof": {
+    "overview": {
+      "file": "overview-4k.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "24b601a8bbf42723e8c64222a5cf33e033e6a1fb23b679fbec6a00d19e18e624",
+      "engine": "BLENDER_EEVEE",
+      "nativeScene": "hoi-an-exhibition.blend",
+      "originalBlenderRender": true
+    },
+    "king": {
+      "file": "king-4k.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "ae6352aa5d792904c2ee41de787ecdb37e44397fda5bd009b84eb537def2ed29",
+      "engine": "BLENDER_EEVEE",
+      "nativeScene": "hoi-an-exhibition.blend",
+      "originalBlenderRender": true
+    },
+    "queen": {
+      "file": "queen-4k.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "2bb72b339c44bbdf1c15aee3ed513355a47a7ecbd4fc9f5b99f2e190a6ec3203",
+      "engine": "BLENDER_EEVEE",
+      "nativeScene": "hoi-an-exhibition.blend",
+      "originalBlenderRender": true
+    },
+    "storage": {
+      "file": "storage-4k.png",
+      "width": 3840,
+      "height": 2160,
+      "sha256": "403d8e04124613e3256336d091ed78f039b6e158b67dd951d6bb57d2a64cc118",
+      "engine": "BLENDER_EEVEE",
+      "nativeScene": "hoi-an-exhibition.blend",
+      "originalBlenderRender": true
+    },
+    "detail-weave": {
+      "file": "detail-weave.png",
+      "width": 1600,
+      "height": 2100,
+      "sha256": "f78a160b541c6d28c2ba9fe3b0bea8b2783766dbaff0de8e49c63ff3facffb09",
+      "engine": "BLENDER_EEVEE",
+      "nativeScene": "hoi-an-exhibition.blend",
+      "originalBlenderRender": true
+    }
+  },
+  "errors": [],
+  "consoleErrors": [],
+  "httpErrors": []
+}

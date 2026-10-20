@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "siteUrl": "http://127.0.0.1:4175/",
+  "mobileSizes": [
+    320,
+    360,
+    390,
+    430
+  ],
+  "landscape": [
+    844,
+    390
+  ],
+  "realTouch": true,
+  "joystick": true,
+  "simultaneousMoveAndLook": true,
+  "stopsOnReleaseAndCancel": true,
+  "pinchZoom": true,
+  "zoomButtons": true,
+  "allFiveZones": true,
+  "latestZoneDuringLoading": true,
+  "productPanelBelowCanvas": true,
+  "expandedView": true,
+  "expandedZonePicker": true,
+  "contactScrollLock": true,
+  "quickNavigation": true,
+  "errors": [],
+  "consoleErrors": [],
+  "httpErrors": []
+}

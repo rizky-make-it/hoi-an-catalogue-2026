@@ -2,6 +2,12 @@
 
 Created by Muhammad Rizky. Independent catalogue reconstruction and open 3D exhibition. Separate from the SIENNA project.
 
+Live exhibition: https://rizky-make-it.github.io/hoi-an-catalogue-2026/
+
+Source repository: https://github.com/rizky-make-it/hoi-an-catalogue-2026
+
+See VERIFICATION.md and verification/ for native, local browser, and live GitHub Pages checks.
+
 ## Run the website
 
 Node.js 24 or newer. No dependencies, API keys, or paid services required.

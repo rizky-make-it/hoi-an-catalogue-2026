@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "deliveredScene": "dist/downloads/hoi-an-exhibition.blend",
+  "reopenedWith": "Blender 5.2.2 LTS",
+  "placements": 12,
+  "uniqueSKUs": 6,
+  "drawers": 28,
+  "trueWovenPanels": 43,
+  "packedImages": 4,
+  "allTexturesPacked": true,
+  "cameras": 5,
+  "cyclesReady": true,
+  "nativeResolution": [3840,2160],
+  "walls": 0,
+  "roof": false
+}

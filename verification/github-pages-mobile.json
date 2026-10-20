@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "siteUrl": "https://rizky-make-it.github.io/hoi-an-catalogue-2026/?v=hoi-an-1",
+  "mobileSizes": [
+    320,
+    360,
+    390,
+    430
+  ],
+  "landscape": [
+    844,
+    390
+  ],
+  "realTouch": true,
+  "joystick": true,
+  "simultaneousMoveAndLook": true,
+  "stopsOnReleaseAndCancel": true,
+  "pinchZoom": true,
+  "zoomButtons": true,
+  "allFiveZones": true,
+  "latestZoneDuringLoading": true,
+  "productPanelBelowCanvas": true,
+  "expandedView": true,
+  "expandedZonePicker": true,
+  "contactScrollLock": true,
+  "quickNavigation": true,
+  "errors": [],
+  "consoleErrors": [],
+  "httpErrors": []
+}
