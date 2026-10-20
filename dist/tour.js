@@ -84,7 +84,7 @@ function selectProduct(root){
   $('#selected-sku').textContent=product.sku+' / GOLDEN SYRUP';$('#selected-name').textContent=product.name;
   $('#selected-dimensions').textContent=product.dimensions.join(' × ')+' mm · width × depth × height';
   $('#selection').hidden=false;$('#inspect-product').hidden=mode==='product';
-  const moving=movingParts(root);$('#open-parts').hidden=!moving.length;$('#open-parts').textContent=moving.some(p=>p.userData.open)?'Close drawers / doors':'Open drawers / doors';
+  const moving=movingParts(root);$('#open-parts').hidden=!moving.length;$('#open-parts').textContent=moving.some(p=>p.userData.open)?'Close drawers':'Open drawers';
   $('#open-parts').setAttribute('aria-pressed',String(moving.some(p=>p.userData.open)));
   $('#download-product').dataset.downloadRequest='the GLB model for '+product.name+' ('+product.sku+')';emit('tour:selection',product);
   if(matchMedia('(max-width:760px)').matches&&!viewer.classList.contains('is-expanded'))(mode==='product'?stage:$('#selection')).scrollIntoView({block:mode==='product'?'start':'nearest',behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});
@@ -100,7 +100,7 @@ export function toggleParts(){
     if(shouldOpen){if(part.userData.action==='drawer')targetPosition.z+=Number(part.userData.distance)||.20;else targetQuaternion.multiply(new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0,1,0),Number(part.userData.angle)||1.5));}
     animations.push({part,startPosition,startQuaternion,targetPosition,targetQuaternion,start:performance.now(),duration:650});part.userData.open=shouldOpen;
   }
-  $('#open-parts').textContent=shouldOpen?'Close drawers / doors':'Open drawers / doors';$('#open-parts').setAttribute('aria-pressed',String(shouldOpen));
+  $('#open-parts').textContent=shouldOpen?'Close drawers':'Open drawers';$('#open-parts').setAttribute('aria-pressed',String(shouldOpen));
 }
 export async function inspect(sku){
   const requestId=Symbol();inspect.latest=requestId;
