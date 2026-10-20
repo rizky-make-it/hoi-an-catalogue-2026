@@ -1,0 +1,7 @@
+{
+  "name": "hoi-an-catalogue-2026",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev":"node scripts/serve.mjs","test":"node --test scripts/contact.test.mjs scripts/touch-controls.test.mjs scripts/language.test.mjs && node scripts/check.mjs","qa":"node scripts/qa.mjs"}
+}

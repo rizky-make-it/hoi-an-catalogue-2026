@@ -1,0 +1,92 @@
+[
+  {
+    "sku": "LV453.B01",
+    "name": "Queen Bed",
+    "dimensions": [
+      1600,
+      2140,
+      1300
+    ],
+    "category": "beds",
+    "sourcePage": 2,
+    "room": "queen",
+    "model": "assets/models/LV453.B01.glb",
+    "articulations": 0,
+    "finish": "LCM127 Golden Syrup"
+  },
+  {
+    "sku": "LV453.B02",
+    "name": "King Bed",
+    "dimensions": [
+      1900,
+      2140,
+      1300
+    ],
+    "category": "beds",
+    "sourcePage": 2,
+    "room": "king",
+    "model": "assets/models/LV453.B02.glb",
+    "articulations": 0,
+    "finish": "LCM127 Golden Syrup"
+  },
+  {
+    "sku": "LV453.B41",
+    "name": "Bedside 2 Drawers",
+    "dimensions": [
+      550,
+      420,
+      580
+    ],
+    "category": "bedsides",
+    "sourcePage": 2,
+    "room": "king",
+    "model": "assets/models/LV453.B41.glb",
+    "articulations": 2,
+    "finish": "LCM127 Golden Syrup"
+  },
+  {
+    "sku": "LV453.B51",
+    "name": "Tallboy 4 Drawers",
+    "dimensions": [
+      950,
+      450,
+      1200
+    ],
+    "category": "storage",
+    "sourcePage": 2,
+    "room": "king",
+    "model": "assets/models/LV453.B51.glb",
+    "articulations": 4,
+    "finish": "LCM127 Golden Syrup"
+  },
+  {
+    "sku": "LV453.B61",
+    "name": "Dresser 6 Drawers",
+    "dimensions": [
+      1500,
+      450,
+      820
+    ],
+    "category": "storage",
+    "sourcePage": 2,
+    "room": "queen",
+    "model": "assets/models/LV453.B61.glb",
+    "articulations": 6,
+    "finish": "LCM127 Golden Syrup"
+  },
+  {
+    "sku": "LV453.B71",
+    "name": "Mirror",
+    "dimensions": [
+      1000,
+      25,
+      1000
+    ],
+    "category": "mirrors",
+    "sourcePage": 2,
+    "room": "queen",
+    "model": "assets/models/LV453.B71.glb",
+    "articulations": 0,
+    "finish": "LCM127 Golden Syrup"
+  }
+]

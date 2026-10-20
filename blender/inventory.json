@@ -1,0 +1,20 @@
+{
+  "collection": "NEW HOI AN", "year": 2026, "sourcePages": 3,
+  "finish": "LCM127 Golden Syrup", "insert": "Natural basket-woven rattan",
+  "source": "NEW HOI AN CATALOGUE 2026.pdf", "manufacturer": "Living Ikon",
+  "units": "millimetres", "dimensionOrder": ["width", "depth", "height"],
+  "products": [
+    {"sku":"LV453.B01","name":"Queen Bed","dimensions":[1600,2140,1300],"category":"beds","sourcePage":2},
+    {"sku":"LV453.B02","name":"King Bed","dimensions":[1900,2140,1300],"category":"beds","sourcePage":2},
+    {"sku":"LV453.B41","name":"Bedside 2 Drawers","dimensions":[550,420,580],"category":"bedsides","sourcePage":2},
+    {"sku":"LV453.B51","name":"Tallboy 4 Drawers","dimensions":[950,450,1200],"category":"storage","sourcePage":2},
+    {"sku":"LV453.B61","name":"Dresser 6 Drawers","dimensions":[1500,450,820],"category":"storage","sourcePage":2},
+    {"sku":"LV453.B71","name":"Mirror","dimensions":[1000,25,1000],"category":"mirrors","sourcePage":2}
+  ],
+  "notes": [
+    "The PDF contains scanned/raster pages; sizes and product labels were transcribed from page 2 and visually checked against pages 1 and 3.",
+    "The original catalogue uses one bed photograph for both Queen and King. Models use their separately printed widths.",
+    "Beds are printed L x W x H; website and model metadata consistently show W x D x H.",
+    "LCM127 Golden Syrup and the concealed construction are interpreted from photographs, not manufacturer CAD or measured samples."
+  ]
+}

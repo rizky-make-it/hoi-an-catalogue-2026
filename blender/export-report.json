@@ -1,0 +1,18 @@
+{
+  "collection": "NEW HOI AN",
+  "products": 6,
+  "placements": 12,
+  "movingParts": 28,
+  "fullTriangles": 3113486,
+  "exhibitionTriangles": 1789066,
+  "batches": 41,
+  "exhibitionBytes": 29943344,
+  "productBytes": {
+    "LV453.B01": 6251744,
+    "LV453.B02": 6894376,
+    "LV453.B41": 3182928,
+    "LV453.B51": 4018424,
+    "LV453.B61": 4171748,
+    "LV453.B71": 2871572
+  }
+}
